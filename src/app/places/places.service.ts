@@ -28,5 +28,8 @@ export class PlacesService {
       99.99
     )
   ];
+  get places() {
+    return [...this._places];
+  }
   constructor() {}
 }
